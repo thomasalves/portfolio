@@ -1,0 +1,109 @@
+.about{
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+
+}
+
+.container .photo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83%;
+}
+.container .text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.text p {
+margin-top: 80px;
+
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: 'Sigmar One', cursive;
+
+}
+.title h3 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.photo img{
+    width: 60%;
+    border-radius: 100px;
+
+}
+.tecnologias{
+    margin-top: 20px;
+}
+
+.tecnologias img{
+    width: 6%;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .container{
+        width: 100%;
+        height: 60%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .container .photo{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .container .text {
+        width: 100%;
+    }
+
+    .title h3 {
+        margin-top: 20px;
+    }
+
+    .text p {
+        font-size: 9px;
+        line-height: 15px;
+        margin: 0px 20px;
+
+    }
+
+    .tecnologias {
+        margin: 10px 20px;
+    }
+
+    .tecnologias img {
+        width: 5%;
+    }
+
+    .tecnologias h3 {
+        font-size: 14px;
+    }
+
+    .photo img {
+        width: 35%;
+    }
+
+    .text p {
+        margin-top: 20px;
+    }
+
+}

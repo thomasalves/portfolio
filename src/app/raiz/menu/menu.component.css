@@ -1,0 +1,9 @@
+span {
+    padding: 20px;
+  }
+
+#navbarNav{ 
+flex-direction: row-reverse;
+padding: 20px;
+
+}
