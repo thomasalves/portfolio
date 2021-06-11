@@ -20,7 +20,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 30px;
 }
 
@@ -41,12 +41,12 @@ margin-top: 80px;
 }
 .title h3 {
     margin-top: 50px;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .photo img{
     width: 60%;
-    border-radius: 100px;
+    border-radius: 200px;
 
 }
 .tecnologias{
@@ -54,7 +54,7 @@ margin-top: 80px;
 }
 
 .tecnologias img{
-    width: 6%;
+    width: 4%;
     margin: 10px;
 }
 

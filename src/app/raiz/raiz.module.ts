@@ -4,13 +4,15 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from './menu/menu.component';
 import { BodyComponent } from './body/body.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
   declarations: [
     MenuComponent,
     BodyComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { AboutComponent } from './about/about.component';
   exports: [
     MenuComponent,
     BodyComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ]
 })
 export class RaizModule { }
