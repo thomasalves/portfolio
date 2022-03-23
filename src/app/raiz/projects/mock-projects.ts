@@ -31,13 +31,13 @@ export const PROJETOS: Projects[] = [
     photo : "../../../assets/Menew.png",
     description: `Pagina desenvolvida utilizando o framework React,com menu inferior e conceitos de responsividade`,
     link: "https://menureact.netlify.app/",
-    title: "Menu"
+    title: "Menew"
   },
   {
     photo : "../../../assets/poupecash.png",
     description: `Pagina desenvolvida em grupo no Gama experience 34, proporcionado pela Gama Academy, Neste projeto
                   não foi utilizado nenhum framework, somente utilizando HTML, CSS, bootstrap e javascript.`,
-    link: "https://poupecash.blog.br/",
+    link: "https://poupecash.site",
     title: "Developer"
   }
 ]
